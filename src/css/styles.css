@@ -42,3 +42,15 @@
  .label {
    font-size: 1em;
  }
+ .form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   max-width: 300px;
+   margin: 50px auto;
+ }
+
+ fieldset {
+   display: flex;
+   gap: 10px;
+ }
