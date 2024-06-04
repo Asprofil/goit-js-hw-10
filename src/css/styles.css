@@ -23,3 +23,22 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+ .timer {
+   display: flex;
+   gap: 20px;
+   padding-top: 20px;
+ }
+
+ .field {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .value {
+   font-size: 2em;
+ }
+
+ .label {
+   font-size: 1em;
+ }
